@@ -1,0 +1,422 @@
+@media only screen and (max-width: 1200px);
+
+:root{
+    --bg-color:rgb(255, 255, 255);
+    --bg-hover : rgb(0, 174, 255);
+    --bg-click : rgb(207, 11, 53);
+    --head-family : "Trirong", serif;
+    --my-name : "Sofia", sans-serif; 
+    --text-family : Georgia, 'Times New Roman', Times, serif;
+    --footer-family: "Audiowide", sans-serif;
+    --color : black;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+.main
+{
+    background-color: #77e7c2;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: cornflowerblue;
+}
+.myName
+{
+    font-family: var(--my-name);
+    padding-top: 1%;
+    padding-left: 4%;
+    color: var(--bg-color);
+    text-shadow: 3px 3px 3px black;
+}
+/* .myName:hover
+{
+    color: black;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px white;
+} */
+
+.main-list{
+    display: flex;
+    float: right;
+    margin-right: 30%;
+    list-style:none;
+    margin-top: 1.5%;
+    font-weight: bolder;
+}
+
+.main-list1{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-top: -14%;
+}
+.menu
+{
+    color: var(--bg-color);
+}
+.menu:hover
+{
+    color: var(--bg-hover);
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+
+.menu:active{
+    color: var(--bg-click);
+}
+
+.head{
+    font-family: var(--head-family);
+    padding-top: 15%;
+    font-size: 26px;
+    text-align: center;
+}
+
+h1{
+    color: var(--bg-color);
+}
+.bx
+{
+    font-size: 50px;
+    margin-top: 15%;
+
+}
+
+.logo
+{
+    color: black;
+}
+.bx:hover
+{
+    color: var(--bg-color);
+    text-shadow: 0px 0px 8px   white;
+}
+.bx:active
+{
+    color:var(--bg-click);
+    transition : top 0.3s ease;
+}
+
+
+/* Profile Card */
+
+
+.Home
+{
+    padding-top: 8%;
+    padding-bottom: 2%;
+    background-color: rgba(45, 155, 219, 0.644);
+    height: 100vh;
+}
+       
+.outer
+{
+    background-image: linear-gradient(270deg, rgba(245, 155, 155, 0.699), #555353);
+    padding: 4%;
+    margin-top: -1%;
+    margin-left: 10%;
+    height: 500px;
+    max-width: 30%;
+    border-radius: 50px;
+}
+
+.outer img
+{
+    margin-top: -5%;
+    height: 300px;
+    max-width: 300px;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), #000000);
+    border-radius: 25px;
+}
+
+.outer .name
+{
+ text-align: center;
+ font-family: var(--footer-family);
+ text-decoration: underline;
+}
+
+.outer .name h1
+{
+    color: black;
+}
+
+.outer .name h3
+{
+    color: rgb(38, 0, 255);
+}
+
+.outer .bx
+{
+    color: black;
+    margin-top: 0.5%;
+    font-size: 30px;
+    margin-left: 3%;
+    background-color: darkgray;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+.outer .bx:hover
+{
+    color: rgb(68, 68, 245);
+    text-shadow: 0px 0px 8px   rgb(236, 165, 165);
+}
+.outer .bx:active
+{
+    color:var(--bg-click);
+    transition : top 0.3s ease;
+}
+
+
+.Home .Home-body
+{
+   margin-top: -35%;
+   margin-left: 45%;
+}
+
+.Home .Home-body h1
+{
+    font-family:var(--text-family);
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.Home .Home-body h3
+{
+    line-height: 30px;
+    font-size: 30px;
+    color: cadetblue;
+}
+.Home .Home-body button
+{
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+    font-family: Georgia;
+}
+.Home .Home-body button:hover
+{
+    background-color: aquamarine;
+}
+.Home .Home-body button:active
+{
+    background-color: darkorchid;
+}
+
+.Home .Home-body button a
+{
+    color: black;
+}
+
+/* About */
+.about
+{
+    height: 100vh;
+    background-color: #77e7c2;
+
+}
+.about img{
+    height: 150px;
+    background-color: rgb(36, 37, 37);
+    border-radius: 25%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.about-content
+{
+    margin-left: 15%;
+    font-size: 20px;
+    margin-right: 15%;
+    text-align: justify;    
+    font-family: var(--head-family);
+}
+
+span
+{
+    font-size: 25px;
+    font-style: var(--head-family);
+    margin-top: -3%;
+}
+
+.about-content .contnet
+{
+    text-indent: 5%;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    padding-right: 3%;    
+    background-color: #6ce7be;
+
+}
+
+/* Education */
+
+.education
+{
+    height: 100vh;
+    background-color: rgba(45, 155, 219, 0.644);
+} 
+
+.education #Edu-logo
+{
+    height: 150px;
+    background-color: rgb(215, 219, 219);
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 6%;
+}
+
+.tab {
+    margin-top: -4%;
+    display: table;
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+  
+  th, td {
+    border: 2px solid #313131;
+    padding: 8px;
+    background-color: darkgray;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .abc{
+    font-size : 30px;
+    text-align: center;
+    color: white;
+    margin-top: -2px;
+    
+  }
+
+  .extra{
+    font-size : 30px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  #certification
+  {
+    margin-top: 1%;
+  }
+
+  table{
+    border-collapse: collapse;
+    margin: 5%;
+    width: 90%;
+  }
+
+  /* Skills */
+
+  .skills
+  {
+    height: 100%;
+    background-color: #77e7c2;
+  }
+  
+.skills #skill-logo
+{
+    height: 150px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 8%;
+}   
+    
+.skills .menu-bar
+{
+    margin-left: 10%;
+}
+.menu-bar ul .main-head{
+    list-style: none;
+    line-height: 60px;
+    font-size: 25px;
+    margin-top: 2%;
+    width: 27%;
+}
+.menu-bar ul{
+    list-style-type: disc;
+    display: block;
+    color: #fdfcfc;
+}
+.menu-bar ul li{
+    font-size: 20px;
+}
+.active,.menu-bar ul li:hover{
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    font-weight: bold;
+    width: 60%;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    margin-left: 10%;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+    animation-duration: initial;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #e9ec28;
+}
+
+
+/* styles.css */
+
+footer {
+    background-color:#333;
+    padding: 8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#Contact{
+    height: 100vh;
+    background-color: rgba(45, 155, 219, 0.644);
+}
+
+#contact-logo{
+    height: 150px;
+    background-color: rgba(167, 167, 167, 0);
+    margin-left: 45%;
+    margin-top: 8%;
+    margin-top: 5.5%;
+} 
+
+.logo1{
+    margin-left: 20%;
+    display: grid;
+    line-height: 35px;
+    font-size: 20px;
+}
+.logo1 a{
+    color: blue;
+}
